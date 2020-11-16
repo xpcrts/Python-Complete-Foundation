@@ -1,0 +1,9 @@
+# Import module
+import re
+
+# Initiate new variable
+text = "Regular Expression Module is a module commonly uses to find, replace, search, split, characters/string."
+
+# Using findall() function
+regex = re.findall("pl", text)
+print(regex)
